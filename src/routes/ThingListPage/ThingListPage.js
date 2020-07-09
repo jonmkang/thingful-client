@@ -4,7 +4,6 @@ import ThingApiService from '../../services/thing-api-service'
 import { Section } from '../../components/Utils/Utils'
 import ThingListItem from '../../components/ThingListItem/ThingListItem'
 import './ThingListPage.css'
-import LoginPage from '../LoginPage/LoginPage'
 
 export default class ThingListPage extends Component {
   static contextType = ThingListContext
